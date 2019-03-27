@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lanxum.springasyncdemo.dao.UserDao">
+
+
+    <resultMap type="com.lanxum.springasyncdemo.domain.dto.SjUser" id="SjUser">
+        <result column="user_id" property="user_id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="create_date" property="create_date"/>
+    </resultMap>
+    <!--根据id查询用户详情-->
+    <select id="findById" parameterType="int" resultType="SjUser">
+        SELECT * FROM sj_user WHERE user_id=#{id}
+    </select>
+
+
+    <select id="sjUserLogin" parameterType="Map" resultMap="SjUser">
+        SELECT * FROM sj_user WHERE username=#{username} and password=#{password}
+    </select>
+
+
+</mapper>

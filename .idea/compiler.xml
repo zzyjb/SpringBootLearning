@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-async-1" />
+        <module name="spring-boot-async-2" />
         <module name="spring-boot-learning-demo" />
         <module name="springasyncdemo" />
       </profile>

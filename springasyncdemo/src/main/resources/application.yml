@@ -1,0 +1,25 @@
+server:
+  port: 2001
+spring:
+  datasource:
+    # jdbc_config   datasource
+    url: jdbc:mysql://localhost:3306/dzpj_demo?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: root
+#    # Hikari will use the above plus the following to setup connection pooling
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      minimum-idle: 5
+#      maximum-pool-size: 15
+#      auto-commit: true
+#      idle-timeout: 30000
+#      pool-name: DatebookHikariCP
+#      max-lifetime: 1800000
+#      connection-timeout: 30000
+#      connection-test-query: SELECT 1
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lanxum.springasyncdemo.domain.dto
+logging:
+  config: classpath:logback-boot.xml
