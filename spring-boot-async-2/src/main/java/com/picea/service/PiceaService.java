@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
  * @author : jiangbing.yang
  * @version 0.1
  * @date : 2019/3/26 15:45
- * @company : 北京立思辰新技术有限公司
+ * @company :
  */
 
 public interface PiceaService {

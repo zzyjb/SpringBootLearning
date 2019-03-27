@@ -37,7 +37,6 @@ public class ThreadPoolTaskConfig {
      * @return
      * @throws
      */
-
     @Bean("piceaTaskExecutor")
     public ThreadPoolTaskExecutor piceaTaskExecutor () {
         ThreadPoolTaskExecutor taskExecutor = new ThreadPoolTaskExecutor();
