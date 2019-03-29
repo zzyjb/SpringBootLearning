@@ -13,5 +13,9 @@
         <module name="springasyncdemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-async-deferredresult" target="1.8" />
+      <module name="spring-boot-async-servlet" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

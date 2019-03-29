@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/spring-boot-async-1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-async-2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-async-3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-async-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-async-deferredresult/pom.xml" />
       </list>
     </option>
   </component>
