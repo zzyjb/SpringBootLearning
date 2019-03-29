@@ -9,13 +9,11 @@
         <module name="spring-boot-async-1" />
         <module name="spring-boot-async-2" />
         <module name="spring-boot-async-3" />
+        <module name="spring-boot-async-deferredresult" />
+        <module name="spring-boot-async-servlet" />
         <module name="spring-boot-learning-demo" />
         <module name="springasyncdemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-async-deferredresult" target="1.8" />
-      <module name="spring-boot-async-servlet" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
