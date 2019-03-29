@@ -33,6 +33,7 @@ public class PiceaServletContoller {
     @RequestMapping("/deferredresult")
     public DeferredResult<String> deferredResult() throws Exception {
         System.out.println("控制层执行线程:" + Thread.currentThread().getName());
+
         //超时
         DeferredResult<String> deferredResult = new DeferredResult<String>(10*1000L);
         deferredResult.onTimeout(new Runnable() {
