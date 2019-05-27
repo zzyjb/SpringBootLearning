@@ -1,0 +1,6 @@
+server:
+  port: 2001
+spring:
+  devtools:
+    restart:
+      enabled: false
